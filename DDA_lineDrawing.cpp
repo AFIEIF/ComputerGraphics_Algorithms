@@ -12,7 +12,7 @@ int main()
     x = x1;
     y = y1;
     int dx = x2 - x1, dy = y2 - y1;
-    int steps = abs(dx) > abs(dy) ? dx : dy;
+    int steps = abs(dx) > abs(dy) ? abs(dx) : abs(dy);
     float delx = (float)(dx) / steps, dely = (float)(dy) / steps;
     printf("\nK\tx\ty\t(x)\t(y)\t(x,y)\n");
     int rx = Round(x);
