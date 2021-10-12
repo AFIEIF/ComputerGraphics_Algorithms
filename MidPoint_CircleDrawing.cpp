@@ -12,7 +12,7 @@ int main()
     int k = 0;
     printf("%d\t%d\t%d\t%d\t(%d,%d)\t%d\n", k, 0, x, y, x + xc, y + yc, p);
     k++;
-    while (x <= y)
+    while (x < y)
     {
         if (p < 0)
         {
